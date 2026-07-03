@@ -1,0 +1,17 @@
+{
+  "name": "@fintech/shared",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "prom-client": "^15.1.2",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.3"
+  }
+}
